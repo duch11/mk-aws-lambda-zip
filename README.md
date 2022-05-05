@@ -1,7 +1,8 @@
 # mk-aws-lambda-zip
 A python script to make a zip file with libraries for your python code. 
-Builds it AWS lambda compatible.
 
+Builds an AWS lambda deployment package. As explained here: 
+https://docs.aws.amazon.com/lambda/latest/dg/python-package.html
 
 ## Requires python to run
 ```sh
