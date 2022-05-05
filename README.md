@@ -7,6 +7,22 @@ Builds it AWS lambda compatible.
 python3 make_aws_lambda_zip_with_libs.py
 ``` 
 
+## Configuring the script
+
+```sh
+# 1 Open the file
+vim make_aws_lambda_zip_with_libs.py
+
+# 2 Edit these lines
+
+pipLibraries = ['requests']
+outputFilename = "lambda.zip"
+pythonCodeLocation = "python"
+pipTempLocation = "tmp"
+
+
+```
+
 ## Example file structure
 
 ```text
