@@ -2,6 +2,7 @@
 A python script to make a zip file with libraries for your python code. 
 Builds it AWS lambda compatible.
 
+
 ## Requires python to run
 ```sh
 python3 make_aws_lambda_zip_with_libs.py
@@ -23,7 +24,11 @@ pipTempLocation = "tmp"
 
 ```
 
-## Example file structure
+## PUT THE SCRIPT 1 Directory ABOVE your lambda code
+ie. source code location:  C:/Code/my_lambda.py ( containing lambda_handler(event, context))
+then Put this script here: C:/Code 
+
+### Example file structure
 
 ```text
 > tree
