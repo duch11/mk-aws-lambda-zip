@@ -5,14 +5,14 @@ Builds it AWS lambda compatible.
 
 ## Requires python to run
 ```sh
-python3 make_aws_lambda_zip_with_libs.py
+python3 mk_aws_lambda_zip.py
 ``` 
 
 ## Configuring the script
 
 ```sh
 # 1 Open the file
-vim make_aws_lambda_zip_with_libs.py
+vim mk_aws_lambda_zip.py
 
 # 2 Edit these lines
 
@@ -33,7 +33,7 @@ then Put this script here: C:/Code
 ```text
 > tree
 .
-├── make_aws_lambda_zip_with_libs.py <--- Put the script here
+├── mk_aws_lambda_zip.py <--- Put the script here
 ├── python  <--- Your code
 │   └── utils
 │       └── api  <--- any nested file structure will be preserved!
