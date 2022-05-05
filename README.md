@@ -25,7 +25,7 @@ pipTempLocation = "tmp"
 ```
 
 ## PUT THE SCRIPT 1 Directory ABOVE your lambda code
-ie. source code location:  C:/Code/my_lambda.py ( containing lambda_handler(event, context))
+ie. source code location:  C:/Code/python/my_lambda.py ( containing lambda_handler(event, context))
 then Put this script here: C:/Code 
 
 ### Example file structure
