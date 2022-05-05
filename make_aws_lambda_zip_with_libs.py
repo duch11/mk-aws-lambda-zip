@@ -4,7 +4,7 @@
 
 ### Customize this to your liking
 pipLibraries = ['requests']
-outputFilename = "lambdsdsda.zip"
+outputFilename = "lambda.zip"
 pythonCodeLocation = "python"
 pipTempLocation = "tmp"
 
