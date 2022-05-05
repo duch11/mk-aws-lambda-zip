@@ -10,9 +10,9 @@ python3 make_aws_lambda_zip_with_libs.py
 ## Example file structure
 
 ```text
-tree
+> tree
 .
-├── make-python-zip.py <--- Put the script here
+├── make_aws_lambda_zip_with_libs.py <--- Put the script here
 ├── python  <--- Your code
 │   └── utils
 │       └── api  <--- any nested file structure will be preserved!
